@@ -4,7 +4,7 @@ $UserName = (Read-Host Windows Username)
 $Department = (Read-Host Department)
 $Description = (Read-Host  Account Description)
 
-$systemName = $firstName + " " + $lastName
+$systemName = $FirstName + " " + $LastName
 $logonName = $userName + "@" + $env:USERDNSDOMAIN 
 $userMail =  $userName + "@" + "$env:USERDNSDOMAIN"
 
