@@ -1,0 +1,4 @@
+﻿Name;SamAccountName;GivenName;Surname;DisplayName;Description;AccountPassword;Enabled
+UserName01; UserName01;FirstName01;LastName01;FirstName LastName;Description;Rand0mP@55W0rd;TRUE
+UserName02; UserName02;FirstName02;LastName02;FirstName LastName02;Description;Rand0mP@55W0rd;TRUE
+UserName03; UserName03;FirstName03;LastName03;FirstName LastName03;Description;Rand0mP@55W0rd;TRUE

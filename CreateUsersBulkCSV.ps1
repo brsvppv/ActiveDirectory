@@ -1,6 +1,6 @@
 Import-Module ActiveDirectory
 
-$file = "C:\SourceDirectroy\users.csv"
+$file = "C:\SourceDirectroy\CreateUsersBulkCSV.csv"
 Write-host "Input Domain Prefix"
 Write-Host "Example: " -ForegroundColor Yellow -NoNewline; Write-Host "DomainName" -ForegroundColor Green  -NoNewline;  Write-Host ".com" 
 $DC =(Read-Host Domain Name)

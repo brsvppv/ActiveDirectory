@@ -1,10 +1,12 @@
 Function ExportADUsersToExcel{
    
     Write-host "Input Domain Prefix"
-    Write-Host "Example: " -ForegroundColor Yellow -NoNewline; Write-Host "Domain.com" -ForegroundColor Cyan
-    $DC ="Read-Host Domain Name"
+    Write-Host "Example: " -ForegroundColor Yellow -NoNewline; Write-Host "DomainName" -ForegroundColor Green  -NoNewline;  Write-Host ".com" 
+    $DC =(Read-Host Domain Name)
+    Write-host "Input Domain Suffix"
+    Write-Host "Example: " -ForegroundColor Yellow -NoNewline; Write-Host "Domain." -NoNewline; Write-Host "com" -ForegroundColor Green
+    $DCEXT = (Read-Host Domain Suffix)
     
-    $DCEXT
     ### Split if domain is only 2 parts.
     #$ADDC = (Read-Host Domain Name)
     #$ADDC =$ADDC.Split(".")
